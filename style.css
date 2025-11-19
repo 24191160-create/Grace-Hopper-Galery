@@ -219,7 +219,7 @@ footer a:hover {
   transform: scale(1.05);
 }
 
-/* Estilos para el menú de navegación superior */
+
 nav {
   background: #fff;
   padding: 15px 0;
@@ -231,7 +231,7 @@ nav .btn {
   margin: 0 10px;
 }
 
-/* Estilos para la galería */
+
 .galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -248,7 +248,7 @@ nav .btn {
   cursor: pointer;
 }
 
-/* Estilos para el formulario embebido */
+
 .formulario {
   margin: 40px auto;
   max-width: 800px;
@@ -265,7 +265,7 @@ nav .btn {
   border-radius: 8px;
 }
 
-/* Estilos para el modal de la galería */
+
 .modal {
   display: none;
   position: fixed;
@@ -392,4 +392,46 @@ nav .btn {
     font-size: 30px;
     right: 20px;
   }
+}
+
+footer {
+  background: linear-gradient(135deg, #222, #333);
+  color: #ddd;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 3px solid #a3c9ff;
+}
+
+.equipo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.integrante {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #444;
+}
+
+.foto-perfil {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #a3c9ff;
+  object-fit: cover;
+}
+
+.grupo-info {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: rgba(163, 201, 255, 0.1);
+  border-radius: 10px;
+  border: 1px solid #555;
 }
